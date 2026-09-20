@@ -199,6 +199,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 11.3
       objectReference: {fileID: 0}
+    - target: {fileID: 2886078224667883355, guid: e11aafeba2bf951488696761ed5925e0, type: 3}
+      propertyPath: Oeste.EstaBloqueado
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3530730377636574324, guid: e11aafeba2bf951488696761ed5925e0, type: 3}
       propertyPath: m_LocalScale.y
       value: 20
