@@ -87,10 +87,12 @@ public class JugadorTony : MonoBehaviour
         GameObject AntiguaPuerta = PuertaActual;
 
         PuertaActual = puertaActual;
+        /*
         PuertaActual.GetComponent<MeshRenderer>().material.color = Color.yellow;
         
         if (AntiguaPuerta)
             AntiguaPuerta.GetComponent<MeshRenderer>().material.color = Color.green;
+        */
     }
     
     private void ManejarNuevaPieza()

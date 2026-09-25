@@ -32,13 +32,13 @@ public class Coneccion
     {
         if (EstaBloqueado)
         {
-            _meshRendererRef.material.color = Color.red;
+            //_meshRendererRef.material.color = Color.red;
             if (_boxColliderRef)
                 _boxColliderRef.isTrigger = false;
         }
         else
         {
-            _meshRendererRef.material.color = Color.green;
+            //_meshRendererRef.material.color = Color.green;
             if (_boxColliderRef)
                 _boxColliderRef.isTrigger = true;
         }

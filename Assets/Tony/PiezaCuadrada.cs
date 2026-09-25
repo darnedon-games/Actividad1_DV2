@@ -105,7 +105,7 @@ public class PiezaCuadrada : Pieza
 
     void Update()
     {
-        Debug.DrawLine(MeshNorte.transform.position + new Vector3(0, 0.3f, 0), MeshNorte.transform.position + new Vector3(1f, 0.3f, 0), Color.magenta);
+        
     }
     
     public void Aleatorizar90()
